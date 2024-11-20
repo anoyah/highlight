@@ -83,7 +83,8 @@ export default function Home() {
             <Link href="/second">Hightlight</Link>
           </h1>
           <div className="flex flex-row gap-4 pr-5">
-            <div>
+            {/* TODO 添加折叠功能 */}
+            {/* <div>
               <Image
                 className="cursor-pointer"
                 src="/images/search.png"
@@ -98,8 +99,7 @@ export default function Home() {
                 width={24}
                 height={24}
               />
-            </div>
-            {/* TODO 添加折叠功能 */}
+            </div> */}
             {/* <div>
                 <Image
                   className="cursor-pointer"
